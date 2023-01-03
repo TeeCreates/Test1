@@ -1,5 +1,7 @@
 import { Main } from "./Main";
 import { useEffect, useState } from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Navbar from "./Navbar";
 
 function App() {
   const [message, setMessage] = useState("no message");
@@ -13,11 +15,12 @@ function App() {
     );
   }, []);
   return (
-    <div className="App">
-      <header className="App-header">
+    <Router>
+      <div className="App">
         <Main />
-      </header>
-    </div>
+        <Navbar />
+      </div>
+    </Router>
   );
 }
 

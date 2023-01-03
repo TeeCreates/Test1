@@ -6,6 +6,6 @@
   "author": "TeeCreates <99111124+TeeCreates@users.noreply.github.com>",
   "license": "MIT",
   "dependencies": {
-    "react-router-dom": "^5.3.4"
+    "react-router-dom": "^5.2.0"
   }
 }
