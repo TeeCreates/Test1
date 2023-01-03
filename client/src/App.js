@@ -39,3 +39,7 @@ function App() {
 }
 
 export default App;
+
+// const Body = styled.div`
+//   background-color: var(--peach);
+// `;

@@ -35,7 +35,14 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-    background-color: #faeee7;
+    background-color:#E6E6FA;
+    height: 97vh;
+    width: 98.3vw;
+    right:-7px;
+    border:#7847E3 7px solid ;
+    padding: 10px;
+
+
 }
 ol, ul {
 	list-style: none;
@@ -52,6 +59,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+}
+:root{
+	/* --peach:#faeee7; */
 }
 
 `;
