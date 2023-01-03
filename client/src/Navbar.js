@@ -1,9 +1,13 @@
+import { Link } from "react-router-dom";
+import { WiStars } from "react-icons/wi";
+
 const Navbar = () => {
   return (
     <>
-      <span>My Work</span>
-      <span>Certificate</span>
-      <span>Resume</span>
+      <Link to="/">Home</Link>
+      <Link to="/Work">Work</Link>
+      <Link to="About">About</Link>
+      <WiStars />
     </>
   );
 };

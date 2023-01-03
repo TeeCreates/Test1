@@ -1,6 +1,6 @@
 import meemoji from "./assets/meemoji.png";
 
-export const Main = () => {
+export const Home = () => {
   return (
     <>
       <img src={meemoji} alt="" />
