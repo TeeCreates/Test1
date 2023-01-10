@@ -1,7 +1,9 @@
 import { Home } from "./Home";
 import { useEffect, useState } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Navbar from "./Navbar";
+// import Navbar from "./Navbar";
+
+import Navbar2 from "./Navbar2";
 import { MyWork } from "./MyWork";
 import { About } from "./About";
 
@@ -19,7 +21,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Navbar />
+        <Navbar2 />
         <div>
           <Switch>
             <Route exact path="/">

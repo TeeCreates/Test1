@@ -35,15 +35,32 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	box-sizing: border-box;
     background-color:#E6E6FA;
-    height: 97vh;
-    width: 98.3vw;
+height: 100vh;
+    width: 100vw; 
     right:-7px;
     border:#7847E3 7px solid ;
-    padding: 10px;
+    padding: 0px;
 
+	
 
+		
+	
 }
+@media screen and (max-width:850px){
+	
+
+	body{
+
+box-sizing: border-box;
+margin:0;
+padding:0;
+	}
+	
+	
+	}
+
 ol, ul {
 	list-style: none;
 }
